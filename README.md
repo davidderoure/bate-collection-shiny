@@ -5,7 +5,13 @@ a Shiny catalogue explorer for the Bate Collection CSV with
 an additional "Data quality" tab for Digital Scholarship
 discussion of missingness, unparsed dates, top values.
 
-## Setup
+## Web interface
+
+You can interact with this app on shinyapps.io using
+
+https://l23zxj-david-de0roure.shinyapps.io/bate-collection-shiny/
+
+## Setup in R Studio
 
 Install required packages:
 
@@ -16,8 +22,8 @@ install.packages(c("shiny","DT","dplyr","stringr","readr","ggplot2"))
 Download the Bate spreadsheet bate_catalogue.csv to the same directory
 as the file app.R
  
-Load app.R into RStudio using New File -> Shiny Web App
-then choose "Run App" and interact through the Web interface.
+Load app.R into RStudio using then choose "Run App" and interact
+through the Web interface.
 
 NB The Excel version of the catalogue is available from
 
